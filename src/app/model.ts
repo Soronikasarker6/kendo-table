@@ -1,5 +1,8 @@
 export class Product {
     public ProductID!: number;
+    public SID!: number;
+    public EndDate!: Date;
+    public StartDate!: Date;
     public ProductName = '';
     public Discontinued? = false;
     public UnitsInStock?: number;
